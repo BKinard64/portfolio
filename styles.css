@@ -1,35 +1,38 @@
-.menu {
-  list-style-type: none;
+* {
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333;
+  box-sizing: border-box;
 }
 
-.menu li {
-  float: left;
-  margin: 14px auto;
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;;	/* Blue */
+  padding: 14px 0;
+  display: flex;
+  justify-content: flex-start;
 }
 
-.menu li a {
+.menu {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu div a {
   display block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  padding: 14px 16px;
 }
 
-.menu li a:hover {
-  background-color: #111;
+.menu div a:hover {
+  color: black;
+  background-color: #B2D6FF;	/* Medium Blue */
 }
 
-.menu li a:visited:hover {
-  color: white;
-}
-
-body {
-  background-color: #F2F2F2;	/* Light Gray */
-  font-size: 18px;
+.menu div a:visited:hover {
+  color: black;
 }
 
 #portfolio-header {
