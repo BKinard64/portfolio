@@ -39,13 +39,20 @@
   color: black;
 }
 
-#portfolio-header {
-  background-color: #FFFFFF;
+.page {
+  font-size: 18px;
+  background-color: #EAEDF0;	/* Light Gray */
+}
+
+.header {
   font-size: 2em;
   text-align: center;
   padding: 50px;
   margin: 0 0 50px 0;
-  border: 1px solid #000000;
+}
+
+#about-header {
+  background-color: #F09A9D;	/* Red */
 }
 
 h2 {
