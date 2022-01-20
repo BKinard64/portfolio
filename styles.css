@@ -48,11 +48,36 @@
   font-size: 2em;
   text-align: center;
   padding: 50px;
-  margin: 0 0 50px 0;
 }
 
 #about-header {
   background-color: #F09A9D;	/* Red */
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#about-content {
+  background-color: #F5CF8E;
+}
+
+.logo {
+  width: 50%;
+  margin: 14px;
+}
+
+.info {
+  width: 50%;
+  align-self: center;
+  margin: 14px;
 }
 
 h2 {
