@@ -58,6 +58,10 @@
  background-color: #C6F58E;	/* Green */
 }
 
+#experience-header {
+  background-color: #F5C38E;	/* Orange */
+}
+
 .content-container {
   display: flex;
   justify-content: center;
@@ -75,6 +79,10 @@
 
 #projects-content {
   background-color: #F09A9D;	/* Red */
+}
+
+#experience-content {
+  background-color: #C6F58E;	/* Green */
 }
 
 .logo {
